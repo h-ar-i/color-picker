@@ -1,0 +1,37 @@
+
+  button{
+    border-radius: 10px;
+    filter: drop-shadow(20px 7px 5px black);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  h1{
+    font-family: cursive;
+    filter: drop-shadow(20px 9px 8px black);
+    
+  }
+
+  @keyframes example {
+    from{background-color: orange;}
+    to{background-color: violet;}
+    
+  }
+
+  .two{
+    border: 15px solid gray;
+    border-radius: 25px;
+    animation-name: border;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    from{background-color: orange;}
+    to{background-color: violet;}
+
+  }
+h1:hover{
+    cursor: pointer;
+
+}
